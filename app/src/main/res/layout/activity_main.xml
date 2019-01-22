@@ -26,44 +26,50 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="25sp"
         android:textStyle="bold"
+        android:paddingLeft="10dp"
         android:text="About Us" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
                 android:text="We are a new contract based software development company in Germantown, MD that prides itself in making only the best android applications on the market. So far we have had the pleasure of working with many different high profile companies including WillowTree, Konstant, Infosolutions, Intellectsoft, and Fueled." />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
+        android:paddingLeft="10dp"
         android:text="Contact Us"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
                 android:text="Email:JDLLC@gmail.com
 Phone:240-477-9999"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
+        android:paddingLeft="10dp"
         android:text="Hours of Operation"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="20sp"
+                android:paddingLeft="10dp"
                 android:text="Mon-Fri: 8am - 6pm
 Sat-Sun: 11am-3pm"/>
 
