@@ -13,6 +13,9 @@ Your design must include:
 - Two or more other pieces of information, such as:
 
   -Contact information for the business (eg phone number, email address, website)
+  
   -Address of the Business
+  
   -Description of business
+  
   -Hours of operation
