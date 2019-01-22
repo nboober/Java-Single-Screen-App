@@ -5,39 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android: android:orientation="vertical"
+    android:background="#C0C0C0"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="1"
-        android:text="Business Name" />
+        android:layout_weight=".1"
+        android:textSize="35dp"
+        android:text="Java Development LLC." />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_weight="1"
+        android:layout_weight="1.9"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/java" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:text="Description of the business" />
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="About Us" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="We are a new contract based software development company in Germantown, MD that prides itself in making only the best android applications on the market. So far we have had the pleasure of working with many different high profile companies including WillowTree, Konstant, Infosolutions, Intellectsoft, and Fueled." />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Contact Information"/>
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Contact Us"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Email:JDLLC@gmail.com
+Phone:240-477-9999"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:textSize="20dp"
+        android:textStyle="bold"
         android:text="Hours of Operation"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:text="Mon-Fri: 8am - 6pm
+Sat-Sun: 11am-3pm"/>
 
 </LinearLayout>
